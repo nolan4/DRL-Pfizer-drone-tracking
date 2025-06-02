@@ -168,7 +168,7 @@ def process_scenes(scene_dir_path, save=False, display=True):
 
 if __name__ == "__main__":
     # Define the path to the scenes directory
-    scene_dir_path = '/home/nolan4/projects/pfizerDRL/dataset/scenes'
+    scene_dir_path = '/path/to/pfizerDRL/dataset/scenes'
 
     # Check if the path exists before processing
     if not os.path.exists(scene_dir_path):

@@ -59,8 +59,8 @@ def move_files_based_on_ranges(scene_boundaries_path, dataset_dir_path):
 
 if __name__ == "__main__":
     # Define paths to the scene boundaries CSV and dataset directory
-    scene_boundaries_path = '/home/nolan4/projects/pfizerDRL/code2/scene_boundaries.txt'
-    dataset_dir_path = '/home/nolan4/projects/pfizerDRL/dataset'
+    scene_boundaries_path = '/path/to/projects/pfizerDRL/code2/scene_boundaries.txt'
+    dataset_dir_path = '/path/to/projects/pfizerDRL/dataset'
 
     # Call the function to organize files
     move_files_based_on_ranges(scene_boundaries_path, dataset_dir_path)

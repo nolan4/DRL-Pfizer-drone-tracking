@@ -235,7 +235,7 @@ def visualize_batch(batch_images, batch_labels, batch_masks, batch_offsets, outp
 
 if __name__ == '__main__':
     # Dataset and DataLoader
-    dataset_dir = '/home/nolan4/projects/pfizerDRL/dataset'
+    dataset_dir = '/path/to/projects/pfizerDRL/dataset'
     scene_list = ['scene3']
     dataset = drlpDataset(dataset_dir, scene_list, image_size=(1080, 1920), grid_size=(34, 60), augment=True)
 

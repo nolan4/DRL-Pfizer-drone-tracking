@@ -107,7 +107,7 @@ def main():
     checkpoint_dir = "checkpoints"
 
     # Dataset setup
-    dataset_dir = "/home/nolan4/projects/pfizerDRL/dataset"
+    dataset_dir = "/path/to/pfizerDRL/dataset"
     train_dataset = drlpDataset(
         dataset_dir=dataset_dir,
         scene_list=["scene2", "scene3", "scene4", "scene5", "scene6", "scene7", "scene8", "scene9", "scene10", "scene11"],

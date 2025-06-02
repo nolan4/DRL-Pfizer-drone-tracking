@@ -79,9 +79,9 @@ def process_video_with_matched_coordinates(video_path, alignment_csv_path, groun
 # Example usage
 if __name__ == "__main__":
     # Input video file and CSV file paths
-    video_file_path = "/home/nolan4/projects/pfizerDRL/materials-en/practice_video.mp4"  # Replace with your video file path
-    alignment_csv_path = "/home/nolan4/projects/pfizerDRL/code2/csv_to_frames_matching.csv"  # Replace with your alignment CSV file path
-    groundtruth_csv_path = "/home/nolan4/projects/pfizerDRL/materials-en/practice_groundtruth.csv"  # Replace with your groundtruth CSV file path
+    video_file_path = "/path/to/pfizerDRL/materials-en/practice_video.mp4"  # Replace with your video file path
+    alignment_csv_path = "/path/to/pfizerDRL/code2/csv_to_frames_matching.csv"  # Replace with your alignment CSV file path
+    groundtruth_csv_path = "/path/to/pfizerDRL/materials-en/practice_groundtruth.csv"  # Replace with your groundtruth CSV file path
 
     start_frame = 1 # to fix positional alignment issue between labels and frames
 

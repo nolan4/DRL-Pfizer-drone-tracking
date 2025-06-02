@@ -65,6 +65,6 @@ def match_csv_to_frames(video_path, csv_path):
 
 # Example usage
 match_csv_to_frames(
-    '/home/nolan4/projects/pfizerDRL/materials-en/practice_video.mp4', 
-    '/home/nolan4/projects/pfizerDRL/materials-en/practice_groundtruth.csv'
+    '/path/to/pfizerDRL/materials-en/practice_video.mp4', 
+    '/path/to/projects/pfizerDRL/materials-en/practice_groundtruth.csv'
 )

@@ -136,10 +136,7 @@ def visualize_predictions_with_heatmaps(image, predictions, heatmap, output_path
         print
 
 def evaluate(dataset_dir, scene_list, checkpoint_path, save_preds=False):
-    # Configuration
-    # checkpoint_path = "/home/nolan4/projects/pfizerDRL/ml/checkpoints/epoch_29_loss_18.7249.pth"
-    # dataset_dir = "/home/nolan4/projects/pfizerDRL/prepare_data/gametime/test-dataset"
-    # scene_list = ["test_scene"]
+
     image_size = (1080, 1920)
     grid_size = (34, 60)
     threshold = 0.5
@@ -231,7 +228,7 @@ def evaluate(dataset_dir, scene_list, checkpoint_path, save_preds=False):
 
 if __name__ == "__main__":
 
-    checkpoint_path = "/home/nolan4/projects/pfizerDRL/ml/checkpoints/epoch_29_loss_18.7249.pth"
-    dataset_dir = "/home/nolan4/projects/pfizerDRL/prepare_data/gametime/test-dataset"
+    checkpoint_path = "/path/to/pfizerDRL/ml/checkpoints/epoch_29_loss_18.7249.pth"
+    dataset_dir = "/path/to/pfizerDRL/prepare_data/gametime/test-dataset"
     scene_list = ["test_scene"]
     evaluate(dataset_dir, scene_list, checkpoint_path)
