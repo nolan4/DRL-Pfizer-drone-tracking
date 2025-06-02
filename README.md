@@ -10,7 +10,7 @@ __________________________________________________________
 
 Environment setup:
 
-conda env create -f path/to/environment.yml (located here in directory)
+conda env create -f path/to/environment.yml (located in prepare_data/submission_dir)
 conda activate drlp-env
 
 
