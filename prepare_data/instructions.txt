@@ -1,0 +1,7 @@
+
+1. align_data_timestamp.py
+2. viz_data.py (fix offsets with start_frame)
+3. gen_frame_coord_pairs.py
+4. riffle_frames.py (to define the scene boundaries in ms ---> record in scene_boundaries.txt)
+5. gen_scenes.py (to process dataset into scenes)
+6. gen_timesurfaces.py (using frames from each scene)
