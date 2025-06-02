@@ -2,10 +2,10 @@ __________________________________________________________
 
 Approach from 10k ft. above:
 
-My network is a basic centernet head on top of a resnet18 backbone
+My network is a basic centernet head on top of a resnet18 backbone.
 I use the delta between frames (event frames) to help the network learn what to focus on.
 
-
+![Combined Output](combined.png)
 __________________________________________________________
 
 Environment setup:
@@ -25,6 +25,7 @@ Overview of code in this directory:
 
 (generated) means the files are created as a result of running tracker.py
 
+```
 $ tree -L 1
 .
 ├── csv_to_frames_matching.csv (generated)
@@ -38,6 +39,7 @@ $ tree -L 1
 ├── test-dataset (generated)
 ├── environment.yml
 └── tracker.py
+```
 
 __________________________________________________________
 
