@@ -1,8 +1,8 @@
 __________________________________________________________
 
-Approach from 10k ft. above:
+10k ft. overview:
 
-My network is a basic centernet head on top of a resnet18 backbone.
+This repo trains a basic centernet head on top of a resnet18 backbone to detect drones in frames collected from the Drone Racing League (DRL) simulator.
 I use the delta between frames (event frames) to help the network learn what to focus on.
 
 ![Combined Output](combined.png)
@@ -21,7 +21,7 @@ How to run the evaluation:
 python tracker.py path/to/video.mp4 path/to/timestamps.csv
 _____________________________________
 
-Overview of code in this directory:
+Overview of code in prepare_data/submission_dir:
 
 (generated) means the files are created as a result of running tracker.py
 
