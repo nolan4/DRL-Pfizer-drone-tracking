@@ -2,7 +2,7 @@ __________________________________________________________
 
 10k ft. overview:
 
-This repo trains a basic centernet head on top of a resnet18 backbone to detect drones in frames collected from the Drone Racing League (DRL) simulator.
+This repo trains a basic centernet head on top of a resnet18 backbone to detect quadcopters in frames collected from the Drone Racing League (DRL) simulator.
 I use the delta between frames (event frames) to help the network learn what to focus on.
 
 ![Combined Output](combined.png)
